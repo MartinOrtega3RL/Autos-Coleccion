@@ -1,0 +1,183 @@
+/* styles.css */
+
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.header nav a:hover {
+  color: #ff6b6b;
+}
+
+/* Estilos del slider */
+.hero {
+  background: url("https://images.unsplash.com/photo-1621808752171-531c30903889?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos de las características */
+.features {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.feature-item {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los testimonios */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.testimonial-item {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la llamada a la acción */
+.cta {
+  background-color: #333;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.cta button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.cta button:hover {
+  background-color: #ff3b3b;
+}
+
+/* Estilos del pie de página */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.hero .download-button {
+  margin-top: 40px; /* Espaciado superior */
+  padding: 15px 30px; /* Aumentamos el padding para hacerlo más grande */
+  font-size: 1.2rem; /* Tamaño de fuente aumentado */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 2px solid white; /* Borde sólido */
+  background-color: transparent; /* Fondo transparente */
+  color: white; /* Color del texto */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.hero .download-button:hover {
+  background-color: #35a0df; /* Cambio de color de fondo al pasar el ratón */
+  color: white; /* Cambio de color de texto al pasar el ratón */
+}
